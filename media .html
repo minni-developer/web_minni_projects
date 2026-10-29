@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media types</title>
+    <style> 
+    body{
+        color: rebeccapurple;
+        text-align: center;
+        padding: 20px;
+        border-style: solid black;
+        border-radius: 10px;
+    }
+    @media screen and (height: 600px)
+ {
+    body{
+        color:lightcoral;
+
+    }
+ }
+ @media screen and (max-width: 600px),screen and (orientation: landscape)
+ {
+    body{
+        color: seagreen;
+
+    }
+    @media not all and ( orientation: landscape)  {
+    body{
+        color: black;
+    }
+    }
+
+ } 
+
+   @media all ( min-width: 100px) {
+        #sidebar  a : after{
+           content:"(" attr(data-email)")"
+        }   
+    
+    </style>
+</head>
+<body>
+    <a href="https://mail.google.com/mail/u/0">E-mail : manahilsabir544@gmail.com</a>
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nam nesciunt sunt repellendus tempora possimus doloribus est dignissimos, modi commodi quam hic ipsa id natus nihil excepturi, ullam dolore aliquam cupiditate blanditiis error, quidem corrupti! Error neque nisi earum alias ab repudiandae minus minima aperiam ratione, beatae quasi doloremque commodi animi voluptatum quos voluptatibus officia impedit esse iure natus laboriosam reiciendis, pariatur aut. Sunt adipisci est dolor animi facere eveniet voluptatibus qui voluptatem enim quod natus repellat reprehenderit esse dicta eos laborum distinctio aut reiciendis, nulla dolorem officiis labore voluptates aliquid consectetur? Omnis facilis quod molestiae repudiandae? Rem, animi ducimus.</p>
+</body>
+</html>

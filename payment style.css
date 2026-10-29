@@ -1,0 +1,34 @@
+*{
+    margin: 5px;
+    background-color: beige;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    font-weight:bold;
+    background-color: azure;
+    border:solid grey;
+    padding: 5px;
+}
+h2{
+    text-align: center;
+    font-weight:bold;
+    background-color: azure;
+    border:solid grey; 
+    padding: 5px;
+}
+form{
+    background-color: azure;
+    border:solid grey; 
+    padding: 5px;
+}
+p{
+    color: black;
+    padding: 5px;
+}
+div{
+    color: cadetblue;
+    text-align: center;
+    padding: 3px;
+
+}
